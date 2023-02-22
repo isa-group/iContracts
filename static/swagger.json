@@ -24,6 +24,35 @@
                     }
                 }
             }
+        },
+        "/api/v1/prediction": {
+            "post": {
+                "tags": [
+                    "prueba"
+                ],
+                "summary": "get a prediction",
+                "description": "get if a sentence is obligation, rigth or neither",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "paragraph": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "required": true
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
         }
     }
 }
