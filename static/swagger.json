@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Swagger iContracts - OpenAPI 3.0",
+        "description": "Swagger iContracts - OpenAPI 3.0",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://127.0.0.1:5000/"
+        }
+    ],
+    "paths": {
+        "/": {
+            "get": {
+                "tags": [
+                    "iContracts"
+                ],
+                "summary": "get hello",
+                "description": "Hello",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    }
+}
