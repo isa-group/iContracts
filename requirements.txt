@@ -1,2 +1,4 @@
 Flask==2.1.2
 flask-swagger-ui==4.11.1
+pandas
+spacy
