@@ -1,0 +1,23 @@
+text,label
+"In the event of a conflict between the terms of this SLA and the terms of the AWS Customer Agreement or other agreement with us governing your use of our Services (the “Agreement”), the terms and conditions of this SLA apply, but only to the extent of such conflict.",2
+"Capitalized terms used herein but not defined herein shall have the meanings set forth in the Agreement.",2
+"*For purposes of this SLA, Amazon EC2 includes any Amazon Elastic Graphics, Amazon Elastic Inference, and Elastic IP Address resources purchased with the relevant Amazon EC2 instance(s).",2
+"SLAs AWS makes two SLA commitments for Amazon EC2: (1) a Region-Level SLA that governs Amazon EC2 deployed across multiple AZs or regions, and (2) an Instance-Level SLA that governs Amazon EC2 instances individually.",2
+"Region-Level SLA For Amazon EC2 with all running instances deployed concurrently across two or more AZs in the same region (or at least two regions if there is only one AZ in a given region)",0
+"In the event Amazon EC2 does not meet the Region-Level SLA, you will be eligible to receive a Service Credit as described below.",1
+"Monthly Uptime Percentage Service Credit Percentage Less than 99.99% but equal to or greater than 99.0% 10% Less than 99.0% but equal to or greater than 95.0%30% Less than 95.0% 100%",2
+"Instance-Level SLA For each individual Amazon EC2 instance (“Single EC2 Instance”), AWS will use commercially reasonable efforts to make the Single EC2 Instance available with an Instance-Level Uptime Percentage of at least 99.5%, in each case during any monthly billing cycle (the “Instance-Level SLA”).",0
+"Instance-Level Uptime Percentage	Service Credit Percentage Less than 99.5% but equal to or greater than 99.0% 10% Less than 99.0% but equal to or greater than 95.0%	30% Less than 95.0%	100%",2
+"Note: In addition to the Instance-Level SLA, AWS will not charge you for any Single EC2 Instance that is Unavailable for more than six minutes of a clockhour.",2
+"SLA Credits Service Credits are calculated as a percentage of the monthly bill (excluding one-time payments such as upfront payments made for Reserved Instances) for Amazon EC2 in the affected AWS region that did not meet the Region-Level SLA, or for the Single EC2 Instance in the AWS region that did not meet the Instance-Level SLA, respectively.",2
+"We will apply any Service Credits only against future payments for Amazon EC2 otherwise due from you.",1
+"A Service Credit will be applicable and issued only if the credit amount for the applicable monthly billing cycle is greater than one dollar ($1 USD).",0
+"Service Credits may not be transferred or applied to any other account.",0
+"Credit Request and Payment Procedures To receive a Service Credit, you must submit a claim by opening a case in the AWS Support Center.",0
+"You may only submit a claim under either the Region-Level SLA or the Instance-Level SLA, as these claims cannot be combined or stacked for a particular Single EC2 Instance.",0
+"Region-Level SLA requests must include: 1.	the words “Amazon Compute SLA Credit Request – Region-Level Claim” in the subject line; 2.	the dates, times, and affected AWS region of each Unavailability incident that you are claiming; 3.	the resource IDs for Amazon EC2; and 4.	your request logs that document the errors and corroborate your claimed outage**.",0
+"Instance-Level SLA requests must include:  1.	the words “Amazon Compute SLA Credit Request – Instance-Level Claim” in the subject line; 2.	the dates, times, and the affected AWS region and AZ of each Unavailability incident that you are claiming; 3.	the resource IDs for the affected Single EC2 Instances; and 4.	your request logs and other data necessary for AWS to validate your claimed outage**.",0
+"Your failure to provide the requested and other information as required above will disqualify you from receiving a Service Credit.",1
+"Unless otherwise provided in the Agreement, this SLA sets forth your sole and exclusive remedies, and AWS’ sole and exclusive obligations, for any unavailability, non-performance, or other failure by us to provide Amazon EC2.",2
+"The Region-Level SLA and Instance-Level SLA, respectively, do not apply to any unavailability, suspension or termination of Amazon EC2, or any other Amazon EC2performance issues, directly or indirectly.",2
+"Financial Credits will be made in the form of a monetary credit applied to future use of the Service and will be applied within 60 days after the Financial Credit was requested.",0
