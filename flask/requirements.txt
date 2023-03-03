@@ -1,6 +1,5 @@
-setuptools
 Flask==2.1.2
 flask-swagger-ui==4.11.1
-gunicorn
 spacy
 setfit
+uWSGI

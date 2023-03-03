@@ -5,7 +5,7 @@ from setfit import SetFitModel
 predictor = Blueprint('predictor', __name__)
 
 
-@predictor.post('/prediction')
+@predictor.post('/api/v1/predictions')
 @paragraph_decoder
 def predict():
     sentences_list = g.sent_list
