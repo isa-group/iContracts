@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "http://127.0.0.1:5000/"
+            "url": "https://nginx-i-marmolpen3.cloud.okteto.net/"
         }
     ],
     "paths": {
@@ -25,7 +25,7 @@
                 }
             }
         },
-        "/api/v1/prediction": {
+        "/api/v1/predictions": {
             "post": {
                 "tags": [
                     "iContracts"
