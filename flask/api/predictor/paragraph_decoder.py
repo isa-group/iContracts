@@ -4,10 +4,16 @@ import spacy
 
 nlp_model = spacy.load('en_core_web_sm', disable=['ner'])
 
+
 def paragraph_decoder(func):
     @wraps(func)
     def decorated_function(*args, **kwargs):
-        text = [request.json['paragraph']]
+        content_type = request.headers.get('Content-Type')
+        if (content_type == 'application/json'):
+            text = [request.json['paragraph']]
+        else:
+            text = [request.form['paragraph']]
+        g.text = text
         doc_to_split = list(nlp_model.pipe(text))
         sentences = []
 
@@ -18,5 +24,5 @@ def paragraph_decoder(func):
 
         g.sent_list = sentences
         return func(*args, **kwargs)
-       
+
     return decorated_function
