@@ -66,9 +66,12 @@ transformers==4.26.1
 typer==0.7.0
 typing_extensions==4.5.0
 urllib3==1.26.14
-uWSGI
 wasabi==1.1.1
 Werkzeug==2.2.3
 xxhash==3.2.0
 yarl==1.8.2
 zipp==3.15.0
+flask-cors
+mongoengine 
+openai
+python-dotenv
