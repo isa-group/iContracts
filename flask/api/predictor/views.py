@@ -1,4 +1,4 @@
-from flask import g, request, Blueprint, render_template
+from flask import g, request, Blueprint, render_template, jsonify
 
 from .models import Report
 from .paragraph_decoder import paragraph_decoder
@@ -34,15 +34,16 @@ def predict():
             rights_results.append(sentences_list[i])
             results[sentences_list[i]] = "Right"
         i = i + 1
-    
+
     if obligations_results != [] or rights_results != []:
         Report(
-            name = body['name'], 
-            document = body['paragraph'], 
-            obligations = obligations_results,
-            rights = rights_results
+            name=body['name'],
+            document=body['paragraph'],
+            obligations=obligations_results,
+            rights=rights_results
         ).save()
 
+    print(Report.objects().all())
     return results
 
 
@@ -54,15 +55,42 @@ def sentences_actors(id):
     agreement = Report.objects().get(id=id)
     obligations_actors = get_roles(agreement.obligations)
     rights_actors = get_roles(agreement.rights)
-    list_obligations_actors = obligations_actors['content'].replace(" ", "").replace(".", "").split(",")
-    list_rights_actors = rights_actors['content'].replace(" ", "").replace(".", "").split(",")
-    
+    list_obligations_actors = obligations_actors['content'].replace(
+        " ", "").replace(".", "").split(",")
+    list_rights_actors = rights_actors['content'].replace(
+        " ", "").replace(".", "").split(",")
+
     agreement.obligations_actors = list_obligations_actors
     agreement.rights_actors = list_rights_actors
     agreement.save()
-    
+
     result = {
         "obligations": list_obligations_actors,
         "rights": list_rights_actors
     }
     return result
+
+
+@predictor.get('/reports')
+def get_reports():
+    '''
+    Get all reports
+    '''
+    reports = Report.objects().all()
+    report_data = {}
+
+    for report in reports:
+        report_object = report.to_mongo().to_dict()
+        report_id = str(report_object['_id'])
+        report_data[report_id] = report_object
+
+    return jsonify(report_data)
+
+
+@predictor.get('/reports/<id>')
+def get_report(id):
+    '''
+    Get a report by id
+    '''
+    report = Report.objects().get(id=id)
+    return jsonify(report.to_mongo().to_dict())
