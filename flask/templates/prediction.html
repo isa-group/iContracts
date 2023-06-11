@@ -25,16 +25,25 @@
                     </div>
                 </form>
             </div>
+
             <div class="col-6">
-                {% if results %}
-                <h1>Results</h1>
-                {{results}}
-                {% endif %}
-                {% if check %}
-                <div>
-                    <h1>Warning</h1>
-                    {{check}}
-                </div>
+                {% if json_data %}
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sentence</th>
+                            <th scope="col">Type</th>
+                        </tr>
+                    </thead>
+                    {% for key, value in json_data.items() %}
+                    <tbody>
+                        <tr>
+                            <td>{{ key }}</td>
+                            <td>{{ value }}</td>
+                        </tr>
+                    </tbody>
+                    {% endfor %}
+                </table>
                 {% endif %}
             </div>
         </div>

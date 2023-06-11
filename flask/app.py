@@ -1,8 +1,16 @@
+import os
 from flask import Flask
 from flask_swagger_ui import get_swaggerui_blueprint
-app = Flask('app')
 from api.predictor.views import predictor
+from mongoengine import *
+from flask_cors import CORS
 
+
+app = Flask(__name__)
+client = connect(host=os.environ.get('MONGODB_URI'))
+
+# Settings
+CORS(app)
 
 SWAGGER_URL = '/api/docs'  
 API_URL = '/static/swagger.json'  
