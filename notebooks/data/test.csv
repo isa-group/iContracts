@@ -1,0 +1,144 @@
+text,label,type
+"This Service Level Agreement for SAP Cloud Services sets forth the System Availability Service Level Agreement (“SLA”) for the productive version of the applicable SAP Cloud Services to which customer has subscribed (“SAP Cloud Services”) in an Order Form with SAP.",2,NEITHER
+"This Service Level Agreement for SAP Cloud Services shall not apply to any SAP Cloud Service for which a System Availability SLA is explicitly set forth in the applicable Supplemental Terms and Conditions for such SAP Cloud Service or for which the applicability of the System Availability SLA is explicitly excluded in the Agreement.",2,NEITHER
+"“Downtime” means the Total Minutes in the Month during which the productive version of the applicable SAP Cloud Service is not available, except for Excluded Downtimes.",2,NEITHER
+"“Month” means a calendar month.",2,NEITHER
+"“Monthly Subscription Fees” means the monthly (or 1/12 of the annual fee) subscription fees paid for the Cloud Service which did not meet the System Availability SLA.",2,NEITHER
+"“Total Minutes in the Month” are measured 24 hours at 7 days a week during a Month.",2,NEITHER
+"“UTC” means Coordinated Universal Time standard.",2,NEITHER
+"Time zones refer to the location of the data center where the SAP Cloud Service is hosted.",2,NEITHER
+"2% of Monthly Subscription Fees for each 1% below System Availability SLA, not to exceed 100% of Monthly Subscription Fees",2,NEITHER
+"(i) a Scheduled Downtime for which a Regular Maintenance Window is described in Section 4 below, or",2,NEITHER
+"(ii) any other Scheduled Downtime described in Section 4 for which the customer has been notified at least five (5) business days prior to such Scheduled Downtime",2,NEITHER
+"(iii) unavailability caused by factors outside of SAP’s reasonable control, such as unpredictable and unforeseeable events that could not have been avoided even if reasonable care had been exercised.",2,NEITHER
+"Scheduled Downtime for the applicable SAP Cloud Services to which customer has subscribed is set forth in Section 4 below entitled “Maintenance Windows for SAP Cloud Services”.",2,NEITHER
+"This Service Level Addendum (the “SLA”) is attached to, and incorporates in the entirety, the Master Services Agreement by and between you and Linode (the “MSA”) and is immediately effective upon your use of any Service (the “Effective Date”).",2,NEITHER
+"Capitalized terms not expressly defined in this SLA shall have the meaning found in the MSA.",2,NEITHER
+"Applicability. This SLA applies to each of Backups, Block Storage, Object Storage, Linode Kubernetes Engine, DNS Manager, NodeBalancers, and Longview (each a ""Covered Service"").",2,NEITHER
+"Service Exemptions. A “Service Exemption” is deemed to occur when unavailability, delay, disruption, or downtime to a Covered Service is caused by",2,NEITHER
+"A scheduled or planned Maintenance Event, provided that Linode has given the person or entity who created, registered, or maintains the applicable Account (the ""Account Holder"") at least 24 hours advance notice;",2,NEITHER
+"Factors outside of Linode’s reasonable control;",2,NEITHER
+"Use of any Service which is in violation of the Terms of Service, or applicable law;",2,NEITHER
+"Force majeure events, including without limitation, acts of war, acts of God, natural disaster, pandemic, utility outages, denial of service attacks, failure of communication lines and/or the Internet, and the occurrence of vulnerabilities or exploits which could not have been avoided with commercially reasonable care;",2,NEITHER
+"Customer software, equipment, or technology, and any interaction therein with any Covered Service; or",2,NEITHER
+"Third-party equipment, software, or technology, and any interaction therein with any Covered Service.",2,NEITHER
+"Failure to provide complete and accurate information may result in delay or denial of Service Credits.",2,NEITHER
+"This Service Level Addendum (the “SLA”) is attached to, and incorporates in the entirety, the Master Services Agreement by and between you and Linode (the “MSA”) and is immediately effective upon your use of any Service (the “Effective Date”).",2,NEITHER
+"Capitalized terms not expressly defined in this SLA shall have the meaning found in the MSA.",2,NEITHER
+"1. Applicability. This SLA applies to each of Dedicated Compute, GPU Cloud Compute, High Memory Cloud Compute, Nanode Cloud Compute, and Standard Cloud Compute (each a ""Covered Service"").",2,NEITHER
+"Service Exemptions. A “Service Exemption” is deemed to occur when unavailability, delay, disruption, or downtime to a Covered Service is caused by",2,NEITHER
+"A scheduled or planned Maintenance Event, provided that Linode has given the person or entity who created, registered, or maintains the applicable Account (the ""Account Holder"") at least 24 hours advance notice;",2,NEITHER
+"Factors outside of Linode’s reasonable control;",2,NEITHER
+"Use of any Service which is in violation of the Terms of Service, or applicable law;",2,NEITHER
+"Force majeure events, including without limitation, acts of war, acts of God, natural disaster, pandemic, utility outages, denial of service attacks, failure of communication lines and/or the Internet, and the occurrence of vulnerabilities or exploits which could not have been avoided with commercially reasonable care;",2,NEITHER
+"Customer software, equipment, or technology, and any interaction therein with any Covered Service; or",2,NEITHER
+"Third-party equipment, software, or technology, and any interaction therein with any Covered Service.",2,NEITHER
+"Failure to provide complete and accurate information may result in delay or denial of Service Credits.",2,NEITHER
+"This Service LevelAgreement (SLA) only applies toU.S.Data Center Colocation for Premium Data Centers, including legacy Premium Data Center Services and legacy Internet Colocation Service for Premium Data Centers.",2,NEITHER
+"""PowerUnavailability"" consists of the number of minutes thatAC power was not available at the Customer's Premium Data Center Service cabinet to the primary outlet orredundant outlet at the same time.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternetBandwidth and Space charges.",2,NEITHER
+"ThisNetwork Latency SLAstandard is limited toNorthAmerica and Transatlantic",2,NEITHER
+"The specificNetwork Latency SLAstandard associated withNorthAmerica and Transatlantic is posted at the following location: http://www.verizonbusiness.com/terms/global_latency_sla.xm",2,NEITHER
+"Each month'sNetwork performance statistics relating to theNetwork Latency SLAs is posted at http://www.verizonbusiness.com/about/network/latency/",2,NEITHER
+"The credit will consist of an amount equal to one day of monthly recurring charges fortheData CenterInternetBandwidth service contracted forin CustomersData Center Colocation/Internet Colocation agreement.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternet Bandwidth charges.",2,NEITHER
+"The PacketDelivery SLAstandard associated withNorthAmerica and Transatlantic is posted at the following location http://www.verizonbusiness.com/terms/global_latency_sla.xml",2,NEITHER
+"Network Performance statistics relating to theNetwork PacketDelivery Service Level forNorthAmerica and Transatlantic is posted at the following location: http://www.verizonbusiness.com/about/network/latency/.",2,NEITHER
+"The credit will consist of an amount equal to one day ofData CenterInternetBandwidthmonthly recurring charges with respect to the Service to which aNetwork PacketDelivery SLAhas not been met.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternetBandwidth charges forthe affected Services",2,NEITHER
+"Also known as delay variation, Jitteris defined as the variation or difference in the end-to-end delay between received packets of an IP or packet stream.",2,NEITHER
+"Jitteris usually caused by imperfections in hardware or software optimization and varying traffic conditions and loading",2,NEITHER
+"Excessive delay variation in packet streams usually results in additional packet loss, which affects quality. Verizon'sU.S.Network Jitter performance statistics associated withNorthAmerica is posted to the following location: http://www.verizonbusiness.com/terms/global_latency_sla.xml.",2,NEITHER
+"Each month'sNetwork performance statistics relating to theNetwork Jitter SLAs forNorthAmerica will be posted to the following location: http://www.verizonbusiness.com/about/network/latency/.",2,NEITHER
+"The credit will consist of an amount equal to one day ofData CenterInternetBandwidth charges with respect to the Services to which aNetwork Jitter SLAhas not been met.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternetBandwidth charges forthe affected Services.",2,NEITHER
+"Available means with noData CenterInternetBandwidthUnavailability",2,NEITHER
+"Data CenterInternet BandwidthUnavailability will mean the number of minutes that VerizonData CenterInternetBandwidth was not available to Customer otherthan forthe exceptions specified below.",2,NEITHER
+"Data CenterInternetBandwidthUnavailability will not : (a) include Scheduled Maintenance (as defined in this Section 6), (b) apply to any Customer circuits or equipment, (c) apply to Customer's applications or equipment, or(d) apply to acts or omissions of Customer, or any use or user of the service authorized by Customer.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternetBandwidth charges.",2,NEITHER
+"Data CenterInternetBandwidthUnavailability will not: (a) include Scheduled Maintenance (as defined in this Section 6), (b) apply to any Customer circuits or equipment, (c) apply to Customer's applications or equipment, or (d) apply to acts or omissions of Customer, or any use or user of the service authorized by Customer.",2,NEITHER
+"The percentage of Monthly Successful CompletedBackups is determined based on the total number of backup jobs successfully completed within that window, divided by the total scheduled backup jobs during a month.",2,NEITHER
+"Standard backup windows are eight hours on weekdays and 22 hours on weekends.",2,NEITHER
+"The following Tables set forth the service credits available underthe Local TapeBackup SLA. Credit percentages are for MonthlyRecurringBackup Charges only.",2,NEITHER
+"The SLAfor LocalBackup Services will not apply to any slow orfailed backups resulting from (a) any Customer circuits or equipment, (b) Customer's applications or equipment, (c) acts of omissions of Customer, or any use or user of the service authorized by Customer, (e) insufficient backnet connectivity or host processing power, as provided by customer, (f) file systems largerthan 100gigabytes for an 8-hour weekday window, (g) file systems largerthan 250 gigabytes for a 22-hour weekday window, (h) open files, open databases, orfull filesystems, or(i) filesystems with extraordinary amounts of individual files.",2,NEITHER
+"If the retention period specified by Customeris one year orless, and if acclimatization is notrequired,restores will commence within 30 minutes of initiation for data stored within the tape library, and within 3 hours of initiation for data stored outside the tape library.",2,NEITHER
+"If acclimatization is required,restores will commence within 30 minutes of completion of acclimatization.",2,NEITHER
+"Arestore of data files, file systems and/or databases, as applicable will be considered successful once the data to be recovered has been transferred from the tape to Customer's primary storage space in the same condition in which it was backed up",2,NEITHER
+"If, as a result of Verizon's actions orinactions, any restore is not successful or does not commence within the above time limits, theRestore will by deemed an unsuccessfulrestore""",2,NEITHER
+"The SLAforRestore Services will not apply to any failed restore resulting from Scheduled Maintenance (see below) or(a) any Customer circuits or equipment, (b) Customer's applications or equipment, or(c) acts of omissions of Customer, or any use or user of the service authorized by Customer.. In addition, Verizon provides no SLAforfailed restores due to missing or unreadable data due to open files, open databases, orfull file systems at time of backup. If the tape storage period is longerthan one year, no time period for commencement applies.",2,NEITHER
+"Maintenance windows forBackup Services systems are typically scheduled on an individual basis to eliminate impact on scheduled backups.",2,NEITHER
+"Verizon's records and data will be the basis for allBackup andRestore SLAcalculations and determinations.",2,NEITHER
+"The maximum amount of credit in any calendar month for allBackup andRestore SLAs, in the aggregate, will not exceed 50% of the total charges that would have been charged by Verizon that month for the affectedBackup andRestore Service.",2,NEITHER
+"ADenial of Service attack is defined as more than 95% bandwidth utilization.",2,NEITHER
+"A complete trouble ticket consists of CustomersName,AccountNumber, CallerName, Caller PhoneNumber, Caller EmailAddress and PossibleDestination IP address / Type ofAttack.",2,NEITHER
+"The total credit will not exceed Customers total monthly recurringData CenterInternetBandwidth charges.",2,NEITHER
+"Verizon will use trouble tickets and other appropriate Verizon records to determine, in its sole judgment, SLA compliance.",2,NEITHER
+"The total amount of credits under all of the above SLAs for which Customer may be eligible in any month will not exceed the Verizon monthly recurring charge forthe affectedData Center Colocation.",2,NEITHER
+"The service level agreements associated withData Center Colocation for Standard andAdvancedData Centers depend on the connectivity that customers obtain in conjunction with the Standard andAdvancedData Centers.",2,NEITHER
+"The SLAabove does not apply to Standard andAdvancedData Centers. Please contact your Verizon accountrepresentative to obtain a copy of the SLAthat may be applicable to the network connectivity selected.",2,NEITHER
+"Customer may claim a credit in the amount described in the table of Section 3.2 below in case of SAP’s failure to meet the System Availability SLA",0,OBLIGATION
+"credit Customer may apply to a future invoice relating to the SAP Cloud Service that did not meet the System Availability SLA.",0,OBLIGATION
+"Claims under this Service Level Agreement for SAP Cloud Services must be made in good faith and by submitting a support case within thirty (30) business days after the end of the relevant Month in which SAP did not meet the System Availability SLA.",0,OBLIGATION
+"SAP will provide to customers a monthly report describing the System Availability percentage for the applicable SAP Cloud Service either (i) by email following a customer’s request to its assigned SAP account manager, (ii) through the SAP Cloud Service or (iii) through an online portal made available to customers, if and when such online portal becomes available.",0,OBLIGATION
+"SAP will provide Customer reasonable notice without undue delay of any major upgrades or emergency maintenance to the SAP Cloud Services.",0,OBLIGATION
+"99.5% System Availability percentage during each Month for productive versions",0,OBLIGATION
+"Uptime Guarantee. We guarantee 99.9% monthly Covered Services uptime (the ""Uptime Guarantee""), provided, however, the Uptime Guarantee shall exclude all delays, disruptions, suspensions, or otherwise adverse effects to the Covered Services caused by a Service Exemption.",0,OBLIGATION
+"In order to be entitled to any Service Credits, the Account Holder must inform Linode Support by opening a ticket (a “Service Credit Request”) within thirty (30) days from the end of the month in which the Uptime Guarantee was not satisfied.",0,OBLIGATION
+"In each instance, a Service Credit Request must include a listing of the date, time, and duration of the Covered Service downtime experienced during the applicable month.",0,OBLIGATION
+"We guarantee 99.99% monthly Covered Services uptime (the ""Uptime Guarantee""), provided, however, the Uptime Guarantee shall exclude all delays, disruptions, suspensions, or otherwise adverse effects to the Covered Services caused by a Service Exemption.",0,OBLIGATION
+"In order to be entitled to any Service Credits, the Account Holder must inform Linode Support by opening a ticket (a “Service Credit Request”) within thirty (30) days from the end of the month in which the Uptime Guarantee was not satisfied.",0,OBLIGATION
+"In each instance, a Service Credit Request must include a listing of the date, time, and duration of the Covered Service downtime experienced during the applicable month.",0,OBLIGATION
+"AC poweris to be available to Customer'sData Center Colocation cabinet100% of the time.",0,OBLIGATION
+"Customer must have equipment capable of utilizing dual power sources and Equipment must be plugged directly into both theApower strip and theBpower strip",0,OBLIGATION
+"Unless otherwise provided in the ServiceAgreement or ServiceAmendment, Customer must not permit power consumption to exceed the power rating identified in the ServiceAgreement or ServiceAmendment and all equipment must beUL approved.",0,OBLIGATION
+"Cabling used by Customer must meet national electrical and fire standards and any specifications provided by Verizon.",0,OBLIGATION
+"Outages will be counted as PowerUnavailability only if Customer opens a trouble ticketrequesting an SLAinvestigation with Verizon technical support within five days of the outage.",0,OBLIGATION
+"PowerUnavailability will not include Scheduled Maintenance (as defined in this Section 2) or unavailability resulting from (a) any Customer circuits or equipment, (b) Customer's applications or equipment, or(c) acts or omissions of Customer, or any use or user of the service authorized by Customer.",0,OBLIGATION
+"Scheduled Maintenance means any maintenance performed on either primary and/orredundant powerfeeds to the Customers cabinet (a) of which Customeris notified 7 business days in advance for an outage that lasts more than 50 ms and 48 hours in advance for an outage impact of 50 ms orless, and (b) that is performed during a standard maintenance window of12AM to 6AM local time of the Verizon data center at which Customer's serveris located.",0,OBLIGATION
+"Information regarding Scheduled Maintenance will be provided to Customer's designated point of contact by a method elected by Verizon (telephone, email, fax or pager).",0,OBLIGATION
+"Verizon provides aNetwork Latency SLAstandard based on the average round-trip transmission time in milliseconds between Verizon-designated inter-regional transit backbone routers (""HubRouters"") inNorthAmerica and betweenNew York and London (Transatlantic).",0,OBLIGATION
+"Latency will be measured by averaging sample measurements taken during a calendar month betweenHubRouters inNorthAmerica and Transatlantic.",0,OBLIGATION
+"In no event will Customerreceive credits underthis SLAif Customeris already receiving a credit undertheData CenterInternet BandwidthAvailability SLA.",0,OBLIGATION
+"Packet delivery is measured by averaging sample measurements taken during a calendar month betweenHubRouters",0,OBLIGATION
+"In no event will Customerreceive credits underthis SLAif Customeris already receiving a credit undertheData CenterInternetBandwidthAvailability SLA.",0,OBLIGATION
+"Jitter will be measured by averaging sample measurements taken during a calendar month betweenHubRouters forNorthAmerica",0,OBLIGATION
+"In no event will Customer receive credits underthis SLAif Customeris already receiving a credit undertheData CenterInternetBandwidthAvailability SLA.",0,OBLIGATION
+"VerizonData CenterInternetBandwidth ServiceAvailability SLAis to have the VerizonData CenterInternetBandwidth (as defined in the applicable service agreement) connectivity provided to customers available 100% of the time",0,OBLIGATION
+"At a Customer's request, Verizon will calculate Customer'sData CenterInternetBandwidthUnavailability in a calendar month.",0,OBLIGATION
+"This SLAapplies only if Customer opens a trouble ticketrequesting an SLAinvestigation with Verizon technical support within five days of the end of the month in which the outage occurred.",0,OBLIGATION
+"Scheduled Maintenance will mean any maintenance at the Verizon data center at which Customer's serveris located (a) of which Customeris notified 72 hours in advance, and (b) that is performed during a standard maintenance window of12AM to 6AM local time of the Verizon data center at which Customer's serveris located.",0,OBLIGATION
+"Information regarding Scheduled Maintenance will be provided to Customer's designated point of contact by a method elected by Verizon (telephone, email, fax or pager).",0,OBLIGATION
+"Under Verizon's OutageReporting SLA, Customeris to be notified within 15 minutes after Verizon's determination that Customer's service isUnavailable (as defined in Section 6).",0,OBLIGATION
+"Verizon's standard procedure is to ping Customer's Colocated equipment every five minutes.",0,OBLIGATION
+"f Customer's equipment does not respond aftertwo consecutive five-minute ping cycles, Verizon will deem the serviceUnavailable (as defined in Section 6) and will contact Customer's designated point of contact by a method elected by Verizon (telephone, email, fax or pager).",0,OBLIGATION
+"Customer must open a trouble ticketrequesting an SLAinvestigation with Verizon technical support within five days of the end of the month in which the outage occurred.",0,OBLIGATION
+"Customeris solely responsible for providing Verizon accurate and current contact information for Customer's designated points of contact.",0,OBLIGATION
+"Verizon will have satisfied its obligations underthis OutageReporting SLAif Verizon contacts Customer's designated point of contact as provided by Customer.",0,OBLIGATION
+"Customer may obtain no more than one credit per day, irrespective of how often in that day Verizon failed to meet the OutageReporting SLA.",0,OBLIGATION
+"Verizon will provide successful completions of tape backups of Customer data on servers located at theData Center within scheduled windows at least 95% of the time.",0,OBLIGATION
+"Verizon will facilitate successfulrestores of backed up data to the original device",0,OBLIGATION
+"Scheduled maintenance forRestore will mean anyBackup Services systems-related maintenance at the Verizon data center at which Customer's serveris located of which Customeris notified 72 hours in advance.",0,OBLIGATION
+"Verizon willrespond toDenial of Service attacks reported by Customer within 15 minutes of Customer opening a complete trouble ticket with Verizon Customer Support.",0,OBLIGATION
+"To open a trouble ticket forDenial of Service, Customer must call Verizon at1-800-900-0241 and state: I think I am under aDenial of ServiceAttack",0,OBLIGATION
+"Customer may obtain no more than one credit per day,regardless of the number ofDenial of Service SLAnon-compliances during the day.",0,OBLIGATION
+"Customer mustrequest a credit from Verizon no laterthan 30days aftertheDenial of Service attack occurred.",0,OBLIGATION
+"SAP can use the following maintenance windows for Scheduled Downtimes as listed below.",1,RIGHT
+"Maintenance Events. From time to time, Linode may perform repairs, replacements, upgrades, updates, patches, fixes, or other maintenance which may delay, disrupt, suspend, or otherwise affect a Covered Service (each a “Maintenance Event”).",1,RIGHT
+"Linode will use reasonable efforts to attempt to minimize the impact of Maintenance Events, but shall have sole discretion in determining the need for, and scope of, any Maintenance Event.",1,RIGHT
+"Service Credits. Subject to the Terms of Service and this SLA, the Account Holder may request a pro-rata credit for any affected monthly billing period in which we are unable to satisfy the Uptime Guarantee (collectively “Service Credits”).",1,RIGHT
+"From time to time, Linode may perform repairs, replacements, upgrades, updates, patches, fixes, or other maintenance which may delay, disrupt, suspend, or otherwise affect a Covered Service (each a “Maintenance Event”).",1,RIGHT
+"Linode will use reasonable efforts to attempt to minimize the impact of Maintenance Events, but shall have sole discretion in determining the need for, and scope of, any Maintenance Event.",1,RIGHT
+"Service Credits. Subject to the Terms of Service and this SLA, the Account Holder may request a pro-rata credit for any affected monthly billing period in which we are unable to satisfy the Uptime Guarantee (collectively “Service Credits”).",1,RIGHT
+"Verizon reserves the right to perform maintenance outside of Scheduled Maintenance during an emergency situation.",1,RIGHT
+"For each cumulative hour orfraction thereof of PowerUnavailability for bothA&Bcircuits, Customer may request a credit for one day of monthly recurring charges fortheData CenterInternetBandwidth and Space affected by the outage as contracted forin CustomersData Center Colocation/Internet Colocation agreement",1,RIGHT
+"If Verizon fails to meet theNetwork Latency Service Level in a calendar month forNorthAmerican and Transatlantic, Customer may request a credit forthat month",1,RIGHT
+"Verizon offers both aNetwork PacketDelivery SLAbetween Verizon-designated inter-regional transit backbone routers (HubRouters) inNorthAmerica and Transatlantic.",1,RIGHT
+"If Verizon fails to meet theNetwork PacketDelivery Service Level in a calendar month, Customer may request a credit forthat month.",1,RIGHT
+"If Verizon fails to meet the Jitter Service Level forNorthAmerica in a calendar month, Customer may request a credit forthat month.",1,RIGHT
+"Verizon reserves the right to perform maintenance outside of Scheduled Maintenance during an emergency situation.",1,RIGHT
+"For each cumulative hour ofData CenterInternetBandwidthUnavailability orfraction thereof in any calendar month, Customer may request a credit for one day ofData CenterInternetBandwidth monthly recurring charges as contracted forin CustomersData Center Colocation/Internet Colocation agreement.",1,RIGHT
+"The OutageReporting SLAis applicable only to service provided in the contiguousUnited States and is applicable only if a Customer sets up his IP addresses for monitoring through https://clientcentral.verizonbusiness.com.",1,RIGHT
+"If Verizon fails to meet the OutageReporting Service Level, Customer may request a credit for one day of the Monthly recurring charges forthe affectedData CenterInternetBandwidth andData Center Colocation/Internet Colocation space only",1,RIGHT
+"If Verizon is unable to successfully restore from the tape to Customers primary storage space in the same condition in which it was backed up, Customer may request a service credit equal to a percentage of the application monthly recurring backup charges as noted in the table below",1,RIGHT
+"Verizon will apply the greater of (i) the Local TapeBackup Credits or(ii) theRestore Success Service Credits, but not both.",1,RIGHT
+"If Verizon fails to meet theDenial of ServiceResponse SLAin a calendar month, Customer may request a credit for one day of charges fortheData Center InternetBandwidth service associated with CustomersData Center Colocation/Internet Colocation agreement",1,RIGHT
