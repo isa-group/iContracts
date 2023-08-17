@@ -1,5 +1,5 @@
 ﻿text,label,type
-"AWS will use commercially reasonable efforts to make Multi-AZ Domains on CloudSearch available with a Monthly Uptime Percentage of at least 99.9% during any monthly billing cycle (the ""Service Commitment"")",0,OBLIGATION
+"AWS will use commercially reasonable efforts to make Multi-AZ Domains on Cloud Search available with a Monthly Uptime Percentage of at least 99.9% during any monthly billing cycle (the ""Service Commitment"")",0,OBLIGATION
 "Service Credits will not entitle you to any refund or other payment from AWS.",0,OBLIGATION
 "Service Credits may not be transferred or applied to any other account.",0,OBLIGATION
 "To receive a Service Credit, you will need to submit a claim by opening a case in the AWS Support Center. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include.",0,OBLIGATION
@@ -11,7 +11,7 @@
 "If a claim under the applicable SLA is confirmed by us, then we will issue the Service Credit to you within one billing cycle following the month in which the request occurred.",0,OBLIGATION
 "If we confirm that the Monthly Uptime Percentage is less than the Service Commitment, we will issue the appropriate Service Credit to you within one billing cycle following the month in which we confirm your request.",0,OBLIGATION
 "IBM will validate SLA claims based upon information provided by Client and IBM system records and will notify Client of approved credits via the Cloud UI or email.",0,OBLIGATION
-"IBM's reasonable determination of a credit is final.",0,OBLIGATION
+"IBMs reasonable determination of a credit is final.",0,OBLIGATION
 "Client agrees to continue to make payment in full for Cloud Services while an SLA claim is being reviewed.",0,OBLIGATION
 "Client must submit an SLA claim by using the form at https://cloud.ibm.com/unifiedsupport/supportcenter within 60 days after the end of the calendar month that the service level was missed, providing sufficient.",0,OBLIGATION
 "Information to identify the affected service, error messages, and other information necessary to validate the claim, referencing IBM support tickets, as applicable.",0,OBLIGATION
@@ -30,12 +30,12 @@
 "You must be in compliance with the Agreement in order to be eligible for a Service Credit.",0,OBLIGATION
 "If we determine that a Service Credit is owed to you, we will apply the Service Credit to your Applicable Monthly Service Fees.",0,OBLIGATION
 "In the event that more than one Service Level for a particular Service is not met because of the same Incident, you must choose only one Service Level under which to make a claim based on the Incident.",0,OBLIGATION
-"You   may not unilaterally offset your Applicable Monthly Service Fees for any performance or availability issues.",0,OBLIGATION
+"You may not unilaterally offset your Applicable Monthly Service Fees for any performance or availability issues.",0,OBLIGATION
 "Additional Terms: You will be eligible for a Service Credit for Duet Enterprise Online only when you are eligible for a Service Credit for the SharePoint Online Plan 2 User SLs that you have purchased as a prerequisite for your Duet Enterprise Online User SLs.",0,OBLIGATION
 "Additional Terms: When submitting a claim, you must ensure that complete monitoring data is maintained within the Monitoring Storage Account and is made available to Microsoft.",0,OBLIGATION
 "Customer must select a set of agents from the measurement system’s list of standard agents that are generally available and represent at least five geographically diverse locations in major worldwide metropolitan areas (excluding PR of China).",0,OBLIGATION
 "If any one of these individual Service Levels is not met, you may submit a claim for a Service Credit.",0,OBLIGATION
-"If one Incident causes us to fail   more than one SLA metric for Exchange Online or EOP, you may only make one Service Credit claim for that incident per Service.",0,OBLIGATION
+"If one Incident causes us to fail more than one SLA metric for Exchange Online or EOP, you may only make one Service Credit claim for that incident per Service.",0,OBLIGATION
 "If this results in the prevention of an infection, you won’t be eligible for a Service Credit under the Virus Detection and Blocking Service Level.",0,OBLIGATION
 "In accordance with reasonable practices, Oracle provides secured computing facilities for both office locations and production Cloud infrastructure.",0,OBLIGATION
 "You are solely responsible for any such post provisioning configuration, data backups, and execution of disaster recovery activities.",0,OBLIGATION
@@ -54,7 +54,7 @@
 "But You may not recover Service Credits for such Cloud Service under multiple Service Level Agreements for the same incident.",0,OBLIGATION
 "But You may not recover Service Credits under multiple provisions for the same event (i.e., You may not recover Service Credits for such Cloud Service under both such order and this document for the same incident).",0,OBLIGATION
 "In no event may You receive more Service Credits than equate to the fees paid by You for the quantity of the applicable Non-Compliant Service that is actually used in the relevant Measured Period.",0,OBLIGATION
-"The Service Level Agreements for Cloud Services under this section (Oracle PaaS and IaaS Public Cloud Service Level Agreement Policy) are contingent on Your adherence to Oracle's recommended minimum technical configuration requirements for accessing and using the applicable Cloud Services from Your network infrastructure and Your user workstations as set forth in the Program Documentation for such Cloud Services.",0,OBLIGATION
+"The Service Level Agreements for Cloud Services under this section (Oracle PaaS and IaaS Public Cloud Service Level Agreement Policy) are contingent on Your adherence to Oracles recommended minimum technical configuration requirements for accessing and using the applicable Cloud Services from Your network infrastructure and Your user workstations as set forth in the Program Documentation for such Cloud Services.",0,OBLIGATION
 "With respect to a Cloud Service listed above for which the Manageability Service Level Agreement under this subsection applies, Oracle will use commercially reasonable efforts to have each such Service available with a Monthly Uptime Percentage (as defined below) of at least 99.9% during any calendar month (the “Service Commitment”)",0,OBLIGATION
 "With respect to a Cloud Service listed above for which the Availability Service Level Agreement under this subsection applies and that is deployed on shared or dedicated infrastructure with Autonomous Data Guard enabled (each a “Cloud Service with Autonomous Data Guard” and collectively the ""Cloud Services with Autonomous Data Guard""), Oracle will use commercially reasonable efforts to have each such Service available with a Monthly Uptime Percentage (as defined below) of at least 99.995% during any calendar month (the “Service Commitment”).",0,OBLIGATION
 "For Oracle Cloud Infrastructure - Ravello Service, the following applies in lieu of the text in section 4.1.1 of the Oracle Cloud Hosting and Delivery Policies: Oracle will work to provide prior notice for any emergency maintenance requiring a service interruption.",0,OBLIGATION
@@ -71,7 +71,7 @@
 "Customer must also provide Google with log files showing Downtime with respect to Encrypt, Decrypt, and/or Sign operations from the Covered Services and the date and time they occurred.",0,OBLIGATION
 "Financial Credits will be made in the form of a monetary credit applied to future use of the Covered Services and will be applied within 60 days after the Financial Credit was requested.",0,OBLIGATION
 "The Cloud Identity Covered Services interface will be operational and available to Customer at least 99.9% of the time in any calendar month.",0,OBLIGATION
-"In order to receive any of the Service Credits described above, Customer must notify Google (or, for Customers who ordered Services from a  Reseller, Customer may notify Reseller and Customer's Reseller must notify Google) within thirty days from the time Customer becomes eligible to receive a Service Credit.",0,OBLIGATION
+"In order to receive any of the Service Credits described above, Customer must notify Google (or, for Customers who ordered Services from a  Reseller, Customer may notify Reseller and Customers Reseller must notify Google) within thirty days from the time Customer becomes eligible to receive a Service Credit.",0,OBLIGATION
 "Service Credits may not be exchanged for, or converted to, monetary amounts, except for customers who are on  Google’s monthly billing plan.",0,OBLIGATION
 "The Covered Service will provide a Monthly Uptime Percentage of Serving DNS queries from at least one of the Google managed Authoritative Name Servers to Customer of 100%.",0,OBLIGATION
 "If Customer does not comply with these requirements, Customer will forfeit its right to receive a Financial Credit.",0,OBLIGATION
@@ -87,7 +87,7 @@
 "A customer may apply the Service Credits only to its future payments for the Service that is the basis for the Service Credit.",0,OBLIGATION
 "Service Credits will not entitle Customer to any refund or other payment from VMware and cannot be applied towards other VMware products or service offerings.",0,OBLIGATION
 "Service Credits may not be transferred or applied to any other account.",0,OBLIGATION
-" During a billing month, VMware will make reasonable efforts to ensure that the Service Offering component listed below is available as per the specified ""Availability Commitment"" in the table below.",0,OBLIGATION
+"During a billing month, VMware will make reasonable efforts to ensure that the Service Offering component listed below is available as per the specified ""Availability Commitment"" in the table below.",0,OBLIGATION
 "You will not be eligible to receive an SLA Credit if: (a) you are delinquent on any payments for the Service Offering.",0,OBLIGATION
 "Upon request, VMware will provide you, within 45 days after a confirmed SLA Event, a copy of the Availability report that VMware makes generally available to customers.",0,OBLIGATION
 "To request an SLA Credit, you must file a support request at https://my.vmware.com within thirty  (30) days after the suspected SLA Event.",0,OBLIGATION
@@ -118,7 +118,7 @@
 "We will apply any Service Credits only against future Alexa for Business payments otherwise due from you.",1,RIGHT
 "At our discretion, we may issue the Service Credits to the credit card you used to pay for the billing cycle in which the unavailability occurred.",1,RIGHT
 "Then you may be eligible for a credit towards a portion of your monthly service fees.",1,RIGHT
-"For example, if you purchased both Exchange Online and SharePoint Online (not as part of a suite), and during the term of the subscription an Incident caused Downtime for both Services, then you could be eligible for two separate Service Credits (one for   each Service), by submitting two claims under this SLA.",1,RIGHT
+"For example, if you purchased both Exchange Online and Share Point Online (not as part of a suite), and during the term of the subscription an Incident caused Downtime for both Services, then you could be eligible for two separate Service Credits (one for   each Service), by submitting two claims under this SLA.",1,RIGHT
 "For these Services, any Service Credit that you may be eligible for will be credited in the form of service time (i.e., days) as opposed to service fees, and any references to   “Applicable Monthly Service Fees” is deleted and replaced by “Applicable Monthly Period.”",1,RIGHT
 "With respect to Exchange Online and EOP licensed as a standalone Service or via ECAL suite, or Exchange Enterprise CAL with Services, you may be eligible for Service Credits if we do not meet the Service Level described below for: (1) Virus Detection and Blocking, (2) Spam Effectiveness, or (3) False Positive",1,RIGHT
 "EOP will notify you and work with you to identify and remove it.",1,RIGHT
@@ -148,14 +148,14 @@
 "If at the end of the Services Period in which the WAF Services Credits were granted, You have any remaining unused WAF Service Credits, and You execute a replenishment order for the Funded Allocation Model, then such WAF Service Credits will be carried forward into the replenishment order’s Services Period, and subtracted from Your first invoice for Cloud Services acquired under such replenishment order.",1,RIGHT
 "The credit will be the highest applicable compensation based on the cumulative availability of the affected service during a contracted month and calculated using the monthly charges for such affected service.",1,RIGHT
 "In the event that availability of the Cloud Service during a contracted month is less than 99.95% the Client is eligible to receive a service level credit equal to an amount of 1% of the monthly charges for the selected subscription edition (including enabled additional components) for each cumulative whole hour of Downtime, up to a maximum of 20% per month.",1,RIGHT
-"For hourly subscriptions that incur an outage to running environments, the Client will receive an hour credit for the number of running VM's multiplied by the duration of the outage.",1,RIGHT
+"For hourly subscriptions that incur an outage to running environments, the Client will receive an hour credit for the number of running VMs multiplied by the duration of the outage.",1,RIGHT
 "Client is eligible for a credit as follows.",1,RIGHT
 "If the specified service level time period is not met, the client can receive a credit based on the monthly charge for the impacted service due to a hardware replacement or upgrade.",1,RIGHT
-"SLA credits are Client's exclusive remedy for IBM's failure to meet a specified service level.",1,RIGHT
+"SLA credits are Clients exclusive remedy for IBMs failure to meet a specified service level.",1,RIGHT
 "If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive the Financial Credits described below.",1,RIGHT
-"This SLA states Customer's sole and exclusive remedy for any failure by Google to meet the SLO.",1,RIGHT
+"This SLA states Customers sole and exclusive remedy for any failure by Google to meet the SLO.",1,RIGHT
 "If Google  does not meet the Cloud Identity SLA, and if Customer meets its obligations under this Cloud Identity SLA, Customer will be eligible to receive the Service Credits described below.",1,RIGHT
-"This Cloud Identity SLA states Customer's sole and exclusive remedy for any failure by Google to meet  the Cloud Identity SLA.",1,RIGHT
+"This Cloud Identity SLA states Customers sole and exclusive remedy for any failure by Google to meet  the Cloud Identity SLA.",1,RIGHT
 "If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive the Financial Credits described below.",1,RIGHT
 "This SLA states Customer’s sole and exclusive remedy for any failure by Google to meet the  SLO.",1,RIGHT
 "In the event that Google fails to meet the SLO, and provided the Customer has met all obligations under this SLA, they will be entitled to receive the Financial Credits outlined below.",1,RIGHT
@@ -163,34 +163,34 @@
 "If Google does not meet the SLO and the Customer complies with the requirements of this SLA, the Customer may be eligible to receive the Financial Credits described below.",1,RIGHT
 "For any failure by Google to meet the SLO, this SLA specifies the sole and exclusive solution available to the Customer.",1,RIGHT
 "Should Google fail to meet the SLO, and provided the Customer has fulfilled its obligations under this SLA, they will qualify to receive the Financial Credits as detailed below.",1,RIGHT
-"The sole and exclusive recourse available to the Customer for any failure on Google's part to meet the SLO is stated in this SLA.",1,RIGHT
+"The sole and exclusive recourse available to the Customer for any failure on Googles part to meet the SLO is stated in this SLA.",1,RIGHT
 "If Google is unable to meet the SLO, and the Customer has met its obligations under this SLA, they will be eligible to receive the Financial Credits explained below.",1,RIGHT
-"In the event of Google's failure to meet the SLO, this SLA specifies the Customer's exclusive remedy.",1,RIGHT
+"In the event of Googles failure to meet the SLO, this SLA specifies the Customers exclusive remedy.",1,RIGHT
 "In case Google fails to meet the SLO, the Customer may be eligible for the Financial Credits described below, subject to the Customer fulfilling their obligations under this SLA.",1,RIGHT
-"The Customer's only remedy for any failure by Google to meet the SLO is outlined in this SLA.",1,RIGHT
+"The Customers only remedy for any failure by Google to meet the SLO is outlined in this SLA.",1,RIGHT
 "If the Availability Percentage (as defined below) during a given month is less than 99.9%, a customer will be eligible for a credit as   provided below (“Service Credit”).",1,RIGHT
 "If the Availability of the specified service is less than the Availability Commitment, then you may request an SLA Credit.",1,RIGHT
 "If the AWS or GCP infrastructure is unavailable, and therefore the services are unavailable, your sole recourse pursuant to the Agreement is to us, and not to AWS or GCP.",1,RIGHT
 "If an SLA Event occurs for the NSX Advanced Load Balancer Hosted Controller Service, you are entitled to an SLA Credit proportional to the portion of capacity consumed by the impacted Hosted Controller.",1,RIGHT
 "If the Availability of a service is less than the associated Availability Commitment in a given billing  month, you may request an SLA Credit in accordance with the following table.",1,RIGHT
 "The Service Credits specified in this SLA are your sole and exclusive remedies for any SLA Events occurring during your subscription term for the Service Offering or for any other claim in connection with this SLA.",1,RIGHT
-"You may be eligible to receive an SLA Credit if the Service Offering's Availability falls short of the Availability Commitment.",1,RIGHT
+"You may be eligible to receive an SLA Credit if the Service Offerings Availability falls short of the Availability Commitment.",1,RIGHT
 "Your exclusive remedy, as per the Agreement, in case the AWS infrastructure becomes unavailable resulting in unavailability of the Service Offering, is with us and not with AWS.",1,RIGHT
 "You may have recourse to AWS pursuant to your separate agreement with AWS, which is required as provided in the Service Description, for any unavailability of the AWS systems.",1,RIGHT
-"In case the Service Offering's Availability is below the Availability Commitment for a billing month, you may request a single SLA Credit, along with an extra SLA Credit for every 300 additional minutes that the Service Offering was unavailable, limited to a maximum of three SLA Credits per billing month.",1,RIGHT
+"In case the Service Offerings Availability is below the Availability Commitment for a billing month, you may request a single SLA Credit, along with an extra SLA Credit for every 300 additional minutes that the Service Offering was unavailable, limited to a maximum of three SLA Credits per billing month.",1,RIGHT
 "The Service Credits specified in this SLA are your sole and exclusive remedies for any SLA Events occurring during your subscription term for the Service Offering or for any other claim in connection with this SLA.",1,RIGHT
 "You may be eligible to request an SLA Credit if the Availability of the Service Offering falls below the committed level.",1,RIGHT
 "If the AWS infrastructure is unavailable, and therefore the Service Offering is unavailable, your sole recourse pursuant to the Agreement is to us, and not to AWS.",1,RIGHT
 "We have recourse to AWS pursuant to our separate agreement with AWS.",1,RIGHT
 "You may have recourse to AWS pursuant to your separate agreement with AWS, which is required as provided in the Service Description, for any unavailability of the AWS systems.",1,RIGHT
-"In case the Service Offering's Availability falls below the committed level for a billing month, you can claim one SLA Credit, plus an extra one for every additional 300 minutes the service was unavailable, up to three SLA Credits per month.",1,RIGHT
+"In case the Service Offerings Availability falls below the committed level for a billing month, you can claim one SLA Credit, plus an extra one for every additional 300 minutes the service was unavailable, up to three SLA Credits per month.",1,RIGHT
 "Upon request, VMware will provide to you, within 45 days after a confirmed SLA Event, a copy of the Availability report that VMware makes generally available to customers.",1,RIGHT
 "The Service Credits outlined in this SLA are the only solutions available to you for any SLA incidents that arise during your service subscription period, or for any other claims related to this agreement.",1,RIGHT
 "In case the Service Offering fails to meet the Availability Commitment, you have the right to request an SLA Credit.",1,RIGHT
 "The Service Credits mentioned in this SLA are the only means of addressing any SLA events or complaints during the term of your Service Offering subscription or any other claims regarding this SLA.",1,RIGHT
 "Upon request, VMware will provide to you, within 45 days after a confirmed SLA Event, a copy of the Availability report that VMware makes generally available to customers.",1,RIGHT
 " If any SLA incidents occur during your subscription term for the Service Offering, or for any other claims related to this SLA, the only solutions available to you are the Service Credits outlined in this document.",1,RIGHT
-"Whenever the Service Offering's Availability falls short of the agreed level for a billing month, you have the option to request a maximum of three SLA Credits, with one credit for the first 300 minutes and an additional credit for each additional 300 minutes of unavailability.",1,RIGHT
+"Whenever the Service Offerings Availability falls short of the agreed level for a billing month, you have the option to request a maximum of three SLA Credits, with one credit for the first 300 minutes and an additional credit for each additional 300 minutes of unavailability.",1,RIGHT
 "The only recourse you have for any SLA events or claims related to this SLA during your subscription period is the Service Credits mentioned in this document.",1,RIGHT
 "You have the right to request an SLA Credit if the availability of the Service Component falls short of its associated Availability Commitment. Availability is computed based on the formula given below for each billing period.",1,RIGHT
 "If the Cloud Provider infrastructure is unavailable, and therefore the Service Offering   or the Service Component is unavailable, your sole recourse under this Service Level Agreement is to   us, and not to IBM or Microsoft (each a “Cloud Provider”).",1,RIGHT
@@ -217,7 +217,7 @@
 "(iii) that result from instances belonging to the Micro DB instance class or other instance classes which have similar CPU and memory resource limitations, (iv) that result from you not following the basic operational guidelines described in the Amazon Aurora User Guide (e.g., overloading a database instance to the point it is inoperable, creating an excessively large number of tables that significantly increases the recovery time, etc.), (v) caused by underlying database engine software that leads to repeated database crashes or an inoperable database instance.",2,NEITHER
 "IBM provides the following service level agreements (SLAs) for Cloud Services when IBM is listed as the Provider value in the IBM Cloud Catalog For 3rd party services, the SLA, if provided, will be set out in the 3rd party vendor terms for that service.",2,NEITHER
 "No credits will be due for failure to meet an SLA because of problems with: Client or community provided content, technology, designs, or instructions, non-IBM build-packs, unsupported system configurations and platforms.",2,NEITHER
-"Client infrastructure failures, including network, hardware, facility, or power, Client system administration actions, commands, or file transfers, Client errors or failures to provide needed information or access to resolve an outage, time to reload, configure, enable, or access content or include other services indirectly affected by an outage, Client-caused security incidents or Client security testing, or other causes beyond IBM's reasonable control.",2,NEITHER
+"Client infrastructure failures, including network, hardware, facility, or power, Client system administration actions, commands, or file transfers, Client errors or failures to provide needed information or access to resolve an outage, time to reload, configure, enable, or access content or include other services indirectly affected by an outage, Client-caused security incidents or Client security testing, or other causes beyond IBMs reasonable control.",2,NEITHER
 "Some services provide Client with infrastructure capabilities where Client is responsible for the implementation and management of said infrastructure",2,NEITHER
 "For such User-Managed Services, eligible downtime is limited to a disruption due to failures or planned maintenance involving any of the following: i) private or public network, ii) infrastructure power, or iii) HVAC infrastructure.",2,NEITHER
 "The Tier 1 SLA applies to most services and configurations not specified in a higher tier. This includes service plans where Client instantiates a single service instance that is hosted in a single data center.",2,NEITHER
@@ -231,7 +231,7 @@
 "Any failure of Client owned components when API calls are routed through Client owned components,   such as an API Gateway, that are paired with the IBM API Connect Dedicated offering do not count toward Downtime and are not eligible for SLA credit.",2,NEITHER
 "For Satellite-hosted services deployed on infrastructure not managed by IBM, the Tier 1 SLA applies, and unavailability attributed to infrastructure failures will not be counted in downtime calculations.",2,NEITHER
 "Errors are requests with a response code greater than or equal to 500.",2,NEITHER
-"Downtime is the total number of accrued minutes where every request made in a clock minute either returns an error or the instance is unavailable (as recorded by IBM's standard monitoring tools).",2,NEITHER
+"Downtime is the total number of accrued minutes where every request made in a clock minute either returns an error or the instance is unavailable (as recorded by IBMs standard monitoring tools).",2,NEITHER
 "For a Dedicated Cloudant Instance in IBM Cloud Dedicated, Downtime excludes any minute during which the request rate exceeds a peak of 500 requests per second.",2,NEITHER
 "In addition to the IBM Cloud Service Description, the Downtime definition specific to this Cloud Service is:   Downtime is the number of accrued minutes where every connection request to a database instance fails in a clock minute.",2,NEITHER
 "Service level time periods exclude any time required to reload the operating system or applications or time performance may be degraded.",2,NEITHER
@@ -276,7 +276,7 @@
 "Oracle PaaS and IaaS Public Cloud Services may be provisioned at multiple data centers, and depending   on product capability, availability, and customer solution design, You may be able to configure such Cloud Services with disaster recovery capabilities.",2,NEITHER
 "“VCN” is a customizable private network within the Oracle Cloud Infrastructure cloud.",2,NEITHER
 "This subsection (Service Credits) sets forth the terms regarding the grant to You of service credits   (“Service Credits”) under a Service Level Agreement set forth in this section (Oracle PaaS and IaaS Public   Cloud Service Level Agreement Policy) arising from Oracle’s failure to meet a Service Commitment with respect to an applicable Oracle PaaS or IaaS Public Cloud Service.",2,NEITHER
-"The grant of these Service Credits are YOUR EXCLUSIVE REMEDY AND ORACLE'S ENTIRE LIABILITY when Oracle has not met a Service Commitment for a Service Level Agreement under this section (Oracle PaaS and IaaS Public Cloud Service Level Agreement Policy)",2,NEITHER
+"The grant of these Service Credits are YOUR EXCLUSIVE REMEDY AND ORACLES ENTIRE LIABILITY when Oracle has not met a Service Commitment for a Service Level Agreement under this section (Oracle PaaS and IaaS Public Cloud Service Level Agreement Policy)",2,NEITHER
 "Service Credits will only be provided for the specific Cloud Service for which the applicable Service Commitment has not been met.",2,NEITHER
 "With the (i) percentage amount (the “Service Credit Percentage”) as set forth in the Service Commitment specified for such Cloud Service in this section (Oracle PaaS and IaaS Public Cloud Service Level Agreement Policy)",2,NEITHER
 "And (ii) the fees and usage based on the rate(s) and metric(s) set forth for such Cloud Service in Your order (pro-rated as necessary).",2,NEITHER
@@ -296,6 +296,6 @@
 "The following will be considered an SLA Event for the Service Offering: • A user cannot successfully authenticate and access the user interface of the Service. Offering for more than five (5) consecutive minutes (excluding failures to authenticate or access resulting from an issue on the customer’s network or authentication service, if applicable).",2,NEITHER
 "The total minutes that the Service Offering is Unavailable for a particular SLA Event is measured from the time that VMware validates the SLA Event has occurred, as defined below, until the time that VMware resolves the SLA Event such that the Service Offering is Available to you.",2,NEITHER
 "If two or more SLA Events occur simultaneously, the SLA Event with the longest duration will be used to determine the total minutes Unavailable.",2,NEITHER
-"bugs in code or services for which there is no commercially reasonable known fix (even if there is a known workaround).",2,NEITHER
+"bugs in code or services for which there is no commercially reasonable known fix (even if there is a known work around).",2,NEITHER
 "VMware’s monitoring tools, data, and records will be the sole source of information used to track and validate Availability.",2,NEITHER
 "This SLA applies only to a customer’s production environment of the Service, and not to any non-production environment, including, without limitation, testing, staging, evaluation, or proof of concept.",2,NEITHER
