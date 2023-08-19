@@ -1,0 +1,21 @@
+﻿text,label,type
+"This Service Level Agreement for SAP Cloud Services sets forth the System Availability Service Level Agreement (“SLA”) for the productive version of the applicable SAP Cloud Services to which customer has subscribed (“SAP Cloud Services”) in an Order Form with SAP.",2,NEITHER
+"This Service Level Agreement for SAP Cloud Services shall not apply to any SAP Cloud Service for which a System Availability SLA is explicitly set forth in the applicable Supplemental Terms and Conditions for such SAP Cloud Service or for which the applicability of the System Availability SLA is explicitly excluded in the Agreement.",2,NEITHER
+"“Downtime” means the Total Minutes in the Month during which the productive version of the applicable SAP Cloud Service is not available, except for Excluded Downtimes.",2,NEITHER
+"“Month” means a calendar month.",2,NEITHER
+"“Monthly Subscription Fees” means the monthly (or 1/12 of the annual fee) subscription fees paid for the Cloud Service which did not meet the System Availability SLA.",2,NEITHER
+"“Total Minutes in the Month” are measured 24 hours at 7 days a week during a Month.",2,NEITHER
+"“UTC” means Coordinated Universal Time standard.",2,NEITHER
+"Time zones refer to the location of the data center where the SAP Cloud Service is hosted.",2,NEITHER
+"2% of Monthly Subscription Fees for each 1% below System Availability SLA, not to exceed 100% of Monthly Subscription Fees.",2,NEITHER
+"(i) a Scheduled Downtime for which a Regular Maintenance Window is described in Section 4 below.",2,NEITHER
+"(ii) any other Scheduled Downtime described in Section 4 for which the customer has been notified at least five (5) business days prior to such Scheduled Downtime.",2,NEITHER
+"(iii) unavailability caused by factors outside of SAP’s reasonable control, such as unpredictable and unforeseeable events that could not have been avoided even if reasonable care had been exercised.",2,NEITHER
+"Scheduled Downtime for the applicable SAP Cloud Services to which customer has subscribed is set forth in Section 4 below entitled “Maintenance Windows for SAP Cloud Services”.",2,NEITHER
+"Claims under this Service Level Agreement for SAP Cloud Services must be made in good faith and by submitting a support case within thirty (30) business days after the end of the relevant Month in which SAP did not meet the System Availability SLA.",0,OBLIGATION
+"SAP will provide to customers a monthly report describing the System Availability percentage for the applicable SAP Cloud Service either (i) by email following a customer’s request to its assigned SAP account manager, (ii) through the SAP Cloud Service or (iii) through an online portal made   available to customers, if and when such online portal becomes available.",0,OBLIGATION
+"99.5% System Availability percentage during each Month for productive versions.",0,OBLIGATION
+"SAP will provide Customer reasonable notice without undue delay of any major upgrades or emergency maintenance to the SAP Cloud Services.",0,OBLIGATION
+"Customer may claim a credit in the amount described in the table of Section 3.2 below in case of SAP’s failure to meet the System Availability SLA.",1,RIGHT
+"Customer may apply to a future invoice relating to the SAP Cloud Service that did not meet the System Availability SLA.",1,RIGHT
+"SAP can use the following maintenance windows for Scheduled Downtimes as listed below.",1,RIGHT
