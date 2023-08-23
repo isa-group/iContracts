@@ -47,26 +47,40 @@ def predict():
     return results
 
 
+def process_batches(items, batch_size, item_type):
+    all_roles = []
+    i = 0
+    while i < len(items):
+        if i + batch_size > len(items):
+            batch = items[i:len(items)]
+            i = len(items)
+        else:
+            batch = items[i:i + batch_size]
+            i = i + batch_size
+        gpt_results = get_roles(batch, len(batch), item_type)
+        actors_per_item = json.loads(gpt_results['content'].replace("'", "\"")) 
+        list_item_actors = [entry["actor"] for entry in actors_per_item]
+        all_roles.extend(list_item_actors)
+    return all_roles
+
+
 @predictor.post('/roles/<id>')
 def sentences_actors(id):
     '''
     Get all sentences roles with GPT-3.5 model
     '''
     agreement = Report.objects().get(id=id)
-    obligations_actors = get_roles(agreement.obligations)
-    rights_actors = get_roles(agreement.rights)
-    list_obligations_actors = obligations_actors['content'].replace(
-        " ", "").replace(".", "").split(",")
-    list_rights_actors = rights_actors['content'].replace(
-        " ", "").replace(".", "").split(",")
 
-    agreement.obligations_actors = list_obligations_actors
-    agreement.rights_actors = list_rights_actors
+    all_obligations_roles = process_batches(agreement.obligations, 3, "obligations")
+    all_rights_roles = process_batches(agreement.rights, 3, "rights")
+
+    agreement.obligations_actors = all_obligations_roles
+    agreement.rights_actors = all_rights_roles
     agreement.save()
 
     result = {
-        "obligations": list_obligations_actors,
-        "rights": list_rights_actors
+        "obligations": all_obligations_roles,
+        "rights": all_rights_roles
     }
     return result
 
@@ -94,3 +108,13 @@ def get_report(id):
     '''
     report = Report.objects().get(id=id)
     return jsonify(report.to_mongo().to_dict())
+
+
+@predictor.delete('/reports/<id>')
+def delete_report(id):
+    '''
+    Delete a report by id
+    '''
+    report = Report.objects().get(id=id)
+    report.delete()
+    return {"message": "Report deleted successfully"}
