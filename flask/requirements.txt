@@ -75,3 +75,4 @@ flask-cors
 mongoengine 
 openai
 python-dotenv
+pdfplumber
