@@ -17,9 +17,10 @@ def predict():
     '''
     body = g.body
     sentences_list = g.sent_list
+    content = g.content 
     sentences_list = [s.replace('"', '') for s in sentences_list]
     model = SetFitModel.from_pretrained(
-        "marmolpen3/sla-obligations-rights")
+        "marmolpen3/paraphrase-mpnet-base-v2-sla-obligations-rights")
     predictions = model(sentences_list)
     labels = ["Obligation", "Right", "Neither"]
     i = 0
@@ -38,12 +39,11 @@ def predict():
     if obligations_results != [] or rights_results != []:
         Report(
             name=body['name'],
-            document=body['paragraph'],
+            document=content,
             obligations=obligations_results,
             rights=rights_results
         ).save()
 
-    print(Report.objects().all())
     return results
 
 
