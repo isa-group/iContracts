@@ -5,11 +5,12 @@ from .paragraph_decoder import paragraph_decoder
 from setfit import SetFitModel
 from ..services.openai import get_roles
 import json
+import time
 
 predictor = Blueprint('predictor', __name__)
 
 
-@predictor.post('/predictions')
+@predictor.post('/reports')
 @paragraph_decoder
 def predict():
     '''
@@ -61,10 +62,11 @@ def process_batches(items, batch_size, item_type):
         actors_per_item = json.loads(gpt_results['content'].replace("'", "\"")) 
         list_item_actors = [entry["actor"] for entry in actors_per_item]
         all_roles.extend(list_item_actors)
+        time.sleep(30)
     return all_roles
 
 
-@predictor.post('/roles/<id>')
+@predictor.post('/reports/<id>/roles')
 def sentences_actors(id):
     '''
     Get all sentences roles with GPT-3.5 model
