@@ -73,7 +73,7 @@ yarl==1.8.2
 zipp==3.15.0
 flask-cors
 mongoengine 
-openai == 0.28.1
+openai==0.28.1
 python-dotenv
 pdfplumber
 uwsgi
