@@ -2,18 +2,33 @@ version: "3.7"
 
 services: 
 
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: ${MONGODB_HOST}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGODB_DATABASE}
+      MONGODB_DATA_DIR: /data/db
+      MONDODB_LOG_DIR: /dev/null
+    ports:
+      - "27017:27017"
+
   icontracts:
     build: ./flask
     container_name: icontracts
     restart: always
     environment:
       - APP_NAME=iContractsApp
+      - MONGODB_URI=mongodb://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@${MONGODB_HOST}:${MONGODB_PORT}/${MONGODB_DATABASE}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
     expose:
       - 8080
 
   nginx:
     build: ./nginx
-    container_name: nginx
+    container_name: nginx 
     restart: always
     ports:
       - "80:80"
