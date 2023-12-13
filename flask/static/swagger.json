@@ -7,39 +7,90 @@
     },
     "servers": [
         {
-            "url": "http://127.0.0.1/"
+            "url": "http://127.0.0.1:5000/"
         }
     ],
     "paths": {
-        "/": {
+        "/api/v1/reports": {
             "get": {
                 "tags": [
-                    "iContracts"
+                    "iCan"
                 ],
-                "summary": "get hello",
-                "description": "Hello",
+                "summary": "get all predictions of each agreement",
+                "description": "get a set of agreements with their obligations and rights",
                 "responses": {
                     "200": {
-                        "description": "successful operation"
+                        "description": "Successful operation.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "paragraph": {
+                                                "type": "string"
+                                            },
+                                            "obligations": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "rights": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "obligations_actors": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "rights_actors": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
-            }
-        },
-        "/api/v1/predictions": {
+            },
             "post": {
                 "tags": [
-                    "iContracts"
+                    "iCan"
                 ],
                 "summary": "get a prediction",
-                "description": "get if a sentence is obligation, rigth or neither",
+                "description": "get sentences that indicates obligations or rights",
                 "requestBody": {
                     "content": {
                         "application/json": {
                             "schema": {
                                 "type": "object",
                                 "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
                                     "paragraph": {
                                         "type": "string"
+                                    },
+                                    "pdfFile": {
+                                        "type": "string",
+                                        "example": "",
+                                        "description": "PDF file must be empty"
                                     }
                                 }
                             }
@@ -47,6 +98,113 @@
                         "required": true
                     }
                 },
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        },
+        "/api/v1/reports/{id}": {
+            "get": {
+                "tags": [
+                    "iCan"
+                ],
+                "summary": "get an agreement prediction",
+                "description": "get a set of obligations and rights",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "ID of the agreement"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "paragraph": {
+                                                "type": "string"
+                                            },
+                                            "obligations": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "rights": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "obligations_actors": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "rights_actors": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "iCan"
+                ],
+                "summary": "delete an agreement prediction",
+                "description": "delete a set of obligations and rights",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "ID of the agreement"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        },
+        "/api/v1/reports/{id}/roles": {
+            "post": {
+                "tags": [
+                    "iCan"
+                ],
+                "summary": "get a roles",
+                "description": "get obligations and rights actors",
                 "responses": {
                     "200": {
                         "description": "Successful operation"
