@@ -38,15 +38,16 @@ def predict():
         i = i + 1
 
     if obligations_results != [] or rights_results != []:
-        Report(
+        report = Report(
             name=body['name'],
             document=content,
             obligations=obligations_results,
             rights=rights_results
-        ).save()
+        )
+        report.save()
+        report_object = report.to_mongo().to_dict()
 
-    return results
-
+    return jsonify(report_object)
 
 def process_batches(items, batch_size, item_type):
     all_roles = []
@@ -93,12 +94,11 @@ def get_reports():
     Get all reports
     '''
     reports = Report.objects().all()
-    report_data = {}
+    report_data = []
 
     for report in reports:
         report_object = report.to_mongo().to_dict()
-        report_id = str(report_object['_id'])
-        report_data[report_id] = report_object
+        report_data.append(report_object)
 
     return jsonify(report_data)
 
