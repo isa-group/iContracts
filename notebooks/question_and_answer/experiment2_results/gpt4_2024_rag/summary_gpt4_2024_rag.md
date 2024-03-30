@@ -276,7 +276,7 @@ Evaluation
 Analysis
 - **Manual answer:** "The customer can request data migration up to 90 days after the end of the agreement (section 9.4 Migration)."
 
-- **GPT-4 answer:** "Yes. Section(s): GitHub Data Protection Agreement - 8. Retention and Deletion.. Justification: The customer has the right to data migration under the GitHub Data Protection Agreement, specifically in Section 8 - Retention and Deletion. Following the completion of the Services, GitHub, as a Processor, will delete or return all the Customer Personal Data to the customer, whichever the customer elects, and delete existing copies in accordance with GitHub's retention and deletion policy. This implies that the customer has the right to request the return of their data, which is a key aspect of data migration."
+- **GPT-4 answer:** "Yes. Section(s): GitHub Data Protection Agreement - 8. Retention and Deletion. Justification: The customer has the right to data migration under the GitHub Data Protection Agreement, specifically in Section 8 - Retention and Deletion. Following the completion of the Services, GitHub, as a Processor, will delete or return all the Customer Personal Data to the customer, whichever the customer elects, and delete existing copies in accordance with GitHub's retention and deletion policy. This implies that the customer has the right to request the return of their data, which is a key aspect of data migration."
   - Score: 10
 
 Evaluation

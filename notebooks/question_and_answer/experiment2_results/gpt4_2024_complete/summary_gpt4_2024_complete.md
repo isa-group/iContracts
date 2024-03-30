@@ -180,7 +180,7 @@ Evaluation
 ### Q16. Does the supplier have a liability limit of 12 months' quota or higher?
 
 Analysis
-- **Manual answer:** "Yes, as GitHub will not exceed the amount the customer has paid for the product during the 12 months prior to the incident (secBon 7.1 (a) Products)."
+- **Manual answer:** "Yes, as GitHub will not exceed the amount the customer has paid for the product during the 12 months prior to the incident (section 7.1 (a) Products)."
 
 - **GPT-4 answer:** "Yes. Section(s): GitHub Customer Agreement - 7 Limitation of liability. Justification: Yes, the supplier, in this case, GitHub, has a liability limit of 12 months' quota or higher as specified in Section 7.1(a) of the GitHub Customer Agreement. For products ordered on a subscription basis, GitHub's maximum liability to the customer for any incident giving rise to a claim will not exceed the amount the customer paid for the product during the 12 months before the incident."
   - Score: 10
