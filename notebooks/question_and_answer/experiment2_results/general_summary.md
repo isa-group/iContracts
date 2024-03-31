@@ -18,14 +18,6 @@ In this document, we will compare the results of the questions that the GPT-4 mo
 |Q24 | ❌ GPT-4 Misinterpretation | ❌ GPT-4 Misinterpretation |❌ GPT-4 Misinterpretation | ❌ GPT-4 Misinterpretation | GPT-4 mentions that the Customer Agreement indicates uncertainty about the renewal process. |
 |Q26 | ❌ Human Misinterpretation | ❌ Human Misinterpretation | ❌ Human Misinterpretation | ❌ Human Misinterpretation| There is information to infer that it is in the united states, especially in 2022 ANNEX I A. LIST OF PARTIES. |
 
-
-- Guideline:
-    - C1: ✅. GPT-4 correct.
-    - C2: ✅. GPT-4 hallucinations.
-    - C3: ❌. Human Misinterpretation.
-    - C4: ❌. GPT-4 Misinterpretation. 
-    - C5: ❌. RAG-omision.
-
 - Final Results
 
  Question | GPT-4 2024 complete | GPT-4 2024 rag | GPT-4 2022 complete | GPT-4 2022 rag | 
@@ -35,10 +27,97 @@ In this document, we will compare the results of the questions that the GPT-4 mo
 |Q11 | ❌ C4 | ❌ C4 | ✅ C2 | ✅ C1 |
 |Q12 | ❌ C3 | ❌ C3 | ❌ C3 | ❌ C3 |
 |Q14 | ❌ C3 | ❌ C3 | ❌ C3 | ❌ C3 |
-|Q15 | ❌ C3 | ❌ C3 | ❌ C3 | ✅ C1 / ❌ C3 | 
+|Q15 | ❌ C3 | ❌ C3 | ❌ C3 | ❌ C3 | 
 |Q16 | ✅ C1 | ❌ C4 | ✅ C1 | ❌ C4 |
 |Q18 | ❌ C4 | ❌ C4 |  ❌ C4 | ❌ C4 | 
 |Q19 | ✅ C2 | ✅ C2 |  ✅ C1 | ✅ C1 |
 |Q23 | ✅ C1 | ❌ C5 | ✅ C1 | ❌ C5 | 
 |Q24 | ❌ C4 | ❌ C4 |❌ C4 | ❌ C4 | 
 |Q26 | ❌ C3 | ❌ C3 | ❌ C3 | ❌ C3| 
+
+**HECHOS Versión 2022: 26 preguntas escenario de valoración.**
+
+Resultados:
+|GPT-4 2022 complete | GPT-4 2022 rag | 
+|--------------|--------------|
+|19 ✅ / 26| 18 ✅ / 26|
+
+ Question | GPT-4 2022 complete | GPT-4 2022 rag | 
+|--------------|--------------|--------------|
+|Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q13, Q17, Q19, Q20, Q21, Q22, Q25, Q27, Q28, Q29 | ✅ C1  |✅ C1|
+|Q11 | ✅ C2 | ✅ C1 |
+|Q23 | ✅ C1 | ❌ C5 | 
+|Q16 | ✅ C1 | ❌ C4 |
+|Q18, Q24 | ❌ C4 | ❌ C4 | 
+|Q12, Q14, Q15, Q26 | ❌ C3 | ❌ C3 |
+
+- Guideline:
+    - C1: ✅. GPT-4 correct.
+    - C2: ✅. GPT-4 hallucinations.
+    - C3: ❌. Human Misinterpretation.
+    - C4: ❌. GPT-4 Misinterpretation. 
+    - C5: ❌. RAG-omision.
+
+
+- Para la mayoria de las preguntas se observa una coincidencia entre las respuestas de GPT-4, empleando RAG y solo GPT-4, y las respuestas humanas. En Q11 una hallucination en el acuerdo completo.
+
+```
+- Q11. Are the licenses received by GitHub on the customer's intellectual property limited?
+- Manual answer: "Yes, because the customer retains all rights, title and interest and GitHub may only use the customer's data for what is strictly necessary"
+- GPT-4-complete: "Yes, (...) the licenses granted to the customer are nonexclusive and limited, subject to the customer's compliance with the Agreement."
+- GPT-4-rag: "Yes, (...) GitHub acquires no rights in Customer Data other than the rights the customer grants to GitHub to provide the online service and for GitHub's legitimate business operations."
+- Justification: Both responses are "Yes", but GPT-4 talks about the licenses that the client receives on GitHub's intellectual property, not the other way around. 
+- Agreement: "Customer retains all right, title and interest in and to Customer Data. GitHub acquires no rights in Customer Data other than the rights Customer grants to GitHub in this section."
+```
+
+- En 6 operaciones de análisis se obtienen un "Not Match" con ambas estrategias y 2 más usando RAG. 
+
+- Se observa que RAG es una técnica que permite reducir los costes de inferencia, pues disminuye la longitud del texto de entrada, pero puede omitir información realmente relevante para responder la pregunta con precisión y coherencia. (**Q23**)
+
+```
+- Q23. What rights does the customer have regarding data migration?
+- Manual: "The customer can request data migration up to 90 days after the end of the agreement (section 9.4 Migration)."
+- GPT-4-complete: "Yes, (...) customers may migrate or request migration of the data in their repositories for up to ninety (90) days after termination of the agreement (...)"
+- GPT-4-rag: "Yes, (...) These rights are detailed in ANNEX I to the Standard Contractual Clauses (EU/EEA) - B. DESCRIPTION OF TRANSFER, which outlines the nature of the processing, the purpose of data transfer and further processing, and the period for which personal data will be retained. (...)"
+- Justification: The rag technique omit some important information for this question.
+- Agreement: 9.5 **Migration**. Customer may migrate or request migration of the data in its repositories for up to ninety (90) days after termination of this Agreement. Customer may not use the Products on a production basis during that time.
+```
+
+- Se observa con la estrategia RAG, el modelo comete una hallucinations en la pregunta Q16.
+
+```
+- Q16. Does the supplier have a liability limit of 12 months' quota or higher?
+- Manual: Yes, as GitHub will not exceed the amount the customer has paid for the product during the 12 months prior to the incident (secBon 7.1 (a) Products).
+- GPT-4-complete: Yes, according to Section 7.1(a) of the GitHub Customer Agreement, the supplier (GitHub) has a liability limit of 12 months' quota.
+- GPT-4-rag: No, GitHub does not have a liability limit higher than 12 months' quota. (...) claim will not exceed the amount the customer paid for the product during the 12 months before the incident.
+- Justification: GPT-4 RAG answer said "No" when really is "Yes" because de limit is 12 months of quota. The justification is correct.
+- Agreement: (a) Products. For Products ordered on a subscription basis, GitHub’s maximum liability to Customer for
+any incident giving rise to a claim will not exceed the amount Customer paid for the Product during
+the 12 months before the incident.
+```
+
+- Para 2 preguntas GPT-4 malinterpretro la pregunta, los terminos o alucinó. (**Q18 y Q24**)
+
+```
+- Q24. Is the contract renewal automatic or does it need to be initiated by the customer?
+- Manual: "Needs to be initiated (...)"
+- GPT-4-complete: "No, (...) either party may terminate the agreement without cause on 30 days' notice. Licenses granted on a subscription basis will continue for the duration of the Subscription Term, subject to the terms of the agreement. This implies that renewal needs to be initiated by the customer and is not automatic."
+- GPT-4-rag: "No,  Section 1.2 indicates that licenses expire at the end of the applicable Subscription Term unless renewed, which suggests that renewal requires action. However, without a specific clause stating the renewal process, it cannot be definitively said whether the renewal is automatic or needs to be initiated by the customer."
+- Justification: The answer is "Yes", but the model answers "No". It mentions that the Customer Agreement indicates uncertainty about the renewal process and suggests that it is probably necessary for the customer to initiate the process.
+- Agreement: "1.2 Duration of licenses. Licenses expire at the end of the applicable Subscription Term unless renewed."
+```
+
+- Al comparar y revisar las respuestas de ambas partes observamos que para 4 preguntas el evaluador humano malinterpretro las preguntas y/o los términos del CA.  (**Q12, Q14, Q15 y Q26**) 
+
+``` Ejemplo
+- Q12. Does the supplier have to delete personal information after the end of the contract?
+- Manual: No, because customer data is only destroyed at the customer's request and if lawful.
+- GPT-4-complete and GPT-4-rag: Yes, is obligated to delete personal information after the end of the contract. Specifically, the 'Data Retention and Deletion' section of the agreement states that upon the customer's reasonable request, unless prohibited by law, (...)
+- Justification: The provider is obliged to delete personal information after the termination of the contract. The Agreement mentions a clause whereby the human analyst considered that the answer was that he was not obliged to delete immediately.
+- Agreement: "Upon Customer's reasonable request, unless prohibited by law, GitHub will return or destroy all Customer Data and Personal Data processed by GitHub..."
+```
+
+
+- El modelo referencia a la sección/es del CA sobre la que extrae la información para dar respuesta a la pregunta, aspecto que permite trazar si la respuesta es correcta. (**Todas**)
+
+- Hay secciones espectificas para darle respuesta a la pregunta y el resto pueden ser preguntas ambiguas que además, no dispongan de una respuesta directa en el CA y sea una interpretación de varias cláusulas por el lector.
